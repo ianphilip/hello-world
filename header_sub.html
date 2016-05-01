@@ -1,0 +1,78 @@
+<?php
+include ('includes/db_conn.php');
+?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple Online Quiz">  
+    <title>Word Quiz Trans</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/logo.png" />
+	<style>
+	html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+  width: 800px;
+  min-height: 400px;
+  margin: 100px auto;
+  color: #333;
+}
+	
+	</style>
+  </head>
+
+  <body role="document">
+   <img alt="full screen background image" src="img/cloud-wallpaper-hd-background-5.png" id="full-screen-background-image" /> 
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Word Trans</a>
+        </div>
+		
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="intro.php" ><img src="img/home-white.png">&nbsp Home</a></li>
+			<li ><a href="menu.php" ><img src="img/user-white.png">&nbsp Login</a></li>
+				
+          </ul>
+        </div><!--/.nav-collapse -->
+		
+      </div>
+    </div>
+
+    <div class="container theme-showcase" role="main">
+	
+	
+	
